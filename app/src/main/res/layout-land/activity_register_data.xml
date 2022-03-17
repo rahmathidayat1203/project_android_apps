@@ -87,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="450dp"
+                android:layout_marginStart="612dp"
                 android:backgroundTint="#851DC01F"
                 android:text="SAVE"
                 android:textColor="#FFFFFFFF" />
