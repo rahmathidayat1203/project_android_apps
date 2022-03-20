@@ -6,11 +6,16 @@
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1405" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable/ic_bars_solid.xml" value="0.1405" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1405" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable/ic_baseline_addchart_24.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable/ic_baseline_calculate_24.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable/ic_baseline_escalator_24.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable/ic_baseline_product.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable/ic_book_solid.xml" value="0.1405" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable/ic_books.xml" value="0.1405" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1405" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable/ic_menu.xml" value="0.1405" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/drawable/ic_plus_solid.xml" value="0.1405" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout-760x360/activity_regis_terdata.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout-land/activity_dashboard.xml" value="0.2" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout-land/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout-land/activity_register_data.xml" value="0.2066420664206642" />
@@ -27,7 +32,7 @@
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout-xlarge/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout/activity_regis_terdata.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout/activity_regis_terdata.xml" value="0.22111801242236026" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout/activity_register_data.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout/activity_register_data_product.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/businessnotes/app/src/main/res/layout/fragment_notes_input.xml" value="0.20416666666666666" />
