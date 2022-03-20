@@ -4,11 +4,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
@@ -21,7 +23,7 @@
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:backgroundTint="#1B9C1D"
+            app:backgroundTint="#19e32a"
             app:layout_anchor="@id/bottomAppBar"
             app:srcCompat="@drawable/ic_baseline_add_24"
             android:contentDescription="@string/add_logo"/>
@@ -33,7 +35,7 @@
             android:layout_gravity="bottom"
             app:fabCradleMargin="10dp"
             app:fabCradleRoundedCornerRadius="10dp"
-            app:backgroundTint="#1B9C1D"
+            app:backgroundTint="#19e32a"
             app:menu="@menu/menu_bar"
             app:navigationIcon="@drawable/ic_menu"/>
 
