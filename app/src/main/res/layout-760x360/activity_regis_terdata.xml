@@ -37,17 +37,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/logo_apps"/>
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/namaBarang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="masukkan barang"
                 app:startIconDrawable="@drawable/ic_baseline_product"
-                app:endIconMode="custom"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
-
+                app:endIconMode="custom">
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"/>
@@ -59,9 +64,7 @@
                 android:layout_height="wrap_content"
                 android:hint="harga barang"
                 app:startIconDrawable="@drawable/ic_baseline_calculate_24"
-                app:endIconMode="custom"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
+                app:endIconMode="custom">
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"/>
@@ -73,9 +76,7 @@
                 android:layout_height="wrap_content"
                 android:hint="ukuran barang"
                 app:startIconDrawable="@drawable/ic_baseline_escalator_24"
-                app:endIconMode="custom"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
+                app:endIconMode="custom">
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"/>
@@ -87,9 +88,7 @@
                 android:layout_height="wrap_content"
                 android:hint="jumlah barang"
                 app:startIconDrawable="@drawable/ic_baseline_addchart_24"
-                app:endIconMode="custom"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
+                app:endIconMode="custom">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="350dp"
@@ -112,7 +111,6 @@
                 android:textColor="@color/white"
                 android:backgroundTint="#e6d010"
                 style="?attr/materialButtonOutlinedStyle"/>
-
         </LinearLayout>
     </ScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

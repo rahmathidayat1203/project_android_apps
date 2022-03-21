@@ -9,166 +9,47 @@
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:expandedTitleMarginStart="72dp"
+                app:expandedTitleMarginBottom="28dp"
+                app:expandedTitleTextAppearance="@style/TextAppearance.App.CollapsingToolbar.Expanded"
+                app:collapsedTitleTextAppearance="@style/TextAppearance.App.CollapsingToolbar.Collapsed">
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:layout_collapseMode="pin"
+                android:elevation="0dp"
+                app:title="Dashboard"
+                app:titleTextColor="@color/white"
+                android:background="#1B9C1D"/>
+        </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clipToPadding="false"
             android:paddingBottom="100dp">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_marginTop="150dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="dummmy"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:lineSpacingExtra="12dp"/>
-            </LinearLayout>
 
+            </LinearLayout>
         </androidx.core.widget.NestedScrollView>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:backgroundTint="#19e32a"
+            app:backgroundTint="#1B9C1D"
             app:layout_anchor="@id/bottomAppBar"
             app:srcCompat="@drawable/ic_baseline_add_24"
             android:contentDescription="@string/add_logo"/>
@@ -180,9 +61,8 @@
             android:layout_gravity="bottom"
             app:fabCradleMargin="10dp"
             app:fabCradleRoundedCornerRadius="10dp"
-            app:backgroundTint="#19e32a"
+            app:backgroundTint="#1B9C1D"
             app:menu="@menu/menu_bar"
             app:navigationIcon="@drawable/ic_menu"/>
-
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
