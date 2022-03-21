@@ -36,7 +36,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/logo_apps"/>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/namaBarang"
                 android:layout_width="match_parent"
@@ -46,7 +54,6 @@
                 app:endIconMode="custom"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp">
-
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"/>
@@ -94,9 +101,24 @@
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"/>
             </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAVE"
+                android:textColor="@color/white"
+                android:backgroundTint="#1B9C1D"
+                style="?attr/materialButtonOutlinedStyle"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REMOVE"
+                android:textColor="@color/white"
+                android:backgroundTint="#f71111"
+                style="?attr/materialButtonOutlinedStyle"/>
         </LinearLayout>
     </ScrollView>
-
-
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         Timer().schedule(object : TimerTask() {
             override fun run() {
-                startActivity(Intent(applicationContext, regisTerdata::class.java))
+                startActivity(Intent(applicationContext, Dashboard::class.java))
             }
         }, 3000)
     }
